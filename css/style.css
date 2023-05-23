@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.border{
+    background-color:  hsl(216, 50%, 16%);
+    height: 570px;
+    border-radius: 20px;
+    box-shadow: hsl(214, 51%, 9%) 20px 20px 10px;
+}
+
+.nft-image{
+    width: 330px;
+    border-radius: 30px;
+    padding: 18px;
+}
+
+.nft-image:hover{
+    cursor: pointer;
+}
+
+h1{
+    font-size: 17pt;
+    color: white;
+    margin-left: 20px;
+}
+
+h1:hover{
+    color: cyan;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+
+.primary{
+    color: hsl(215, 51%, 70%);
+    margin-left:20px ;
+    font-size: 18px;
+}
+
+.eth-clock{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.eth{
+    color: hsl(178, 100%, 50%);
+    margin-left: -100px;
+}
+
+.clock-text{
+    color: hsl(215, 51%, 70%);
+}
+
+.icon-creator{
+    width: 40px;
+}
+
+.avatar-text{
+    display: flex;
+    margin-left: 20px;
+}
+
+.avatar-text p{
+    margin-top: 10px;
+    margin-left: 15px;
+    color: hsl(215, 51%, 70%);
+}
+
+span{
+    color: white;
+}
+
+span:hover{
+    color: cyan;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+hr{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid  hsl(215, 32%, 27%);
+}
